@@ -7,8 +7,30 @@
 
 ```bash
 composer require --dev phpunit/phpunit-selenium
+php artisan make:test TaskTest
 ```
 
+````php
+class WebTest extends PHPUnit_Extensions_Selenium2TestCase
+{
+    protected function setUp()
+    {
+        $this->setBrowser('firefox');
+        $this->setBrowserUrl('http://www.example.com/');
+    }
 
-## Références 
+    public function testTitle()
+    {
+        $this->url('http://www.example.com/');
+        $this->assertEquals('Example WWW Page', $this->title());
+    }
+
+}
+````
+
+## Références
+- https://github.com/php-webdriver/php-webdriver
+- https://unogeeks.com/laravel-selenium/
+- https://laravel.com/docs/10.x/testing 
 - [phpunit-selenium](https://github.com/giorgiosironi/phpunit-selenium)
+- [Laravel Test Helpers for Selenium](https://laracasts.com/series/whatcha-working-on/episodes/1)
