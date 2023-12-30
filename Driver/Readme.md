@@ -1,13 +1,13 @@
-# lab-laravel-selenium-driver
+# lab-selenium-driver
 
 ## Travail à faire
 
+Utiliser de Selenium driver pour test le lab-crud-standard
 
 ## Commandes 
 
 ```bash
-composer require --dev phpunit/phpunit-selenium
-php artisan make:test TaskTest
+composer require --dev laravel/dusk
 ```
 
 ````php
@@ -29,8 +29,12 @@ class WebTest extends PHPUnit_Extensions_Selenium2TestCase
 ````
 
 ## Références
-- https://github.com/php-webdriver/php-webdriver
 - https://unogeeks.com/laravel-selenium/
+- https://laravel.com/docs/10.x/dusk
+
+
+- https://github.com/php-webdriver/php-webdriver
+
 - https://laravel.com/docs/10.x/testing 
 - [phpunit-selenium](https://github.com/giorgiosironi/phpunit-selenium)
 - [Laravel Test Helpers for Selenium](https://laracasts.com/series/whatcha-working-on/episodes/1)
