@@ -47,3 +47,4 @@ php artisan dusk
 ## Références
 - https://unogeeks.com/laravel-selenium/
 - https://laravel.com/docs/10.x/dusk
+- [Laravel Dusk Tutorials](https://www.youtube.com/playlist?list=PLe30vg_FG4OTxWw8xdgpI6xEvlEdUSw7u)
