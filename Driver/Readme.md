@@ -8,33 +8,37 @@ Utiliser de Selenium driver pour test le lab-crud-standard
 
 ```bash
 composer require --dev laravel/dusk
+
+
 ```
 
-````php
-class WebTest extends PHPUnit_Extensions_Selenium2TestCase
-{
-    protected function setUp()
-    {
-        $this->setBrowser('firefox');
-        $this->setBrowserUrl('http://www.example.com/');
-    }
+```bash
+  php artisan dusk:install
+```
+Problème : 
 
-    public function testTitle()
-    {
-        $this->url('http://www.example.com/');
-        $this->assertEquals('Example WWW Page', $this->title());
-    }
+```bash
+  # Error
+  cURL error 60: SSL certificate problem: unable to get local issuer certificate (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://googlechromelabs.github.io/chrome-for-testing/last-known-good-versions-with-downloads.json
+```
 
-}
-````
+Solution 
+
+[cURL error 60: SSL certificate in Laravel 5.4](https://stackoverflow.com/questions/42094842/curl-error-60-ssl-certificate-in-laravel-5-4)
+
+```
+Download this file: http://curl.haxx.se/ca/cacert.pem
+Place this file in the C:\wamp64\bin\php\php7.1.9 folder
+Open php.iniand find this line:
+;curl.cainfo
+
+Change it to:
+
+curl.cainfo = "C:\wamp64\bin\php\php7.1.9\cacert.pem"
+```
+
+
 
 ## Références
 - https://unogeeks.com/laravel-selenium/
 - https://laravel.com/docs/10.x/dusk
-
-
-- https://github.com/php-webdriver/php-webdriver
-
-- https://laravel.com/docs/10.x/testing 
-- [phpunit-selenium](https://github.com/giorgiosironi/phpunit-selenium)
-- [Laravel Test Helpers for Selenium](https://laracasts.com/series/whatcha-working-on/episodes/1)
