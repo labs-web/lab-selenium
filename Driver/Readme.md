@@ -8,13 +8,20 @@ Utiliser de Selenium driver pour test le lab-crud-standard
 
 ```bash
 composer require --dev laravel/dusk
-
-
+php artisan dusk:install
 ```
 
 ```bash
-  php artisan dusk:install
+php artisan dusk:make TacheTest
+php artisan dusk
 ```
+
+## Extention
+
+- https://chromewebstore.google.com/detail/laravel-testtools/ddieaepnbjhgcbddafciempnibnfnakl?hl=en
+
+
+## Problèmes
 Problème : 
 
 ```bash
@@ -38,13 +45,10 @@ curl.cainfo = "C:\wamp64\bin\php\php7.1.9\cacert.pem"
 ```
 
 
-```bash
-php artisan dusk:make LoginTest
-php artisan dusk
-```
 
 
 ## Références
 - https://unogeeks.com/laravel-selenium/
 - https://laravel.com/docs/10.x/dusk
 - [Laravel Dusk Tutorials](https://www.youtube.com/playlist?list=PLe30vg_FG4OTxWw8xdgpI6xEvlEdUSw7u)
+- https://fajarwz.com/blog/improving-app-quality-exploring-browser-testing-with-laravel-dusk/

@@ -19,7 +19,7 @@ abstract class DuskTestCase extends BaseTestCase
      */
     public static function prepare(): void
     {
-        DuskTestCase::driver()->setCapability('acceptInsecureCerts', true);
+        // DuskTestCase::driver()->setCapability('acceptInsecureCerts', true);
 
         if (! static::runningInSail()) {
             static::startChromeDriver();
@@ -36,7 +36,7 @@ abstract class DuskTestCase extends BaseTestCase
         ])->unless($this->hasHeadlessDisabled(), function (Collection $items) {
             return $items->merge([
                 '--disable-gpu',
-                '--headless=new',
+                // '--headless=new',
             ]);
         })->all());
 
