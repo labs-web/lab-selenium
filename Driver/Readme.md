@@ -38,6 +38,11 @@ curl.cainfo = "C:\wamp64\bin\php\php7.1.9\cacert.pem"
 ```
 
 
+```bash
+php artisan dusk:make LoginTest
+php artisan dusk
+```
+
 
 ## Références
 - https://unogeeks.com/laravel-selenium/

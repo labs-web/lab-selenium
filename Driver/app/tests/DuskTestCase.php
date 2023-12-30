@@ -19,6 +19,8 @@ abstract class DuskTestCase extends BaseTestCase
      */
     public static function prepare(): void
     {
+        DuskTestCase::driver()->setCapability('acceptInsecureCerts', true);
+
         if (! static::runningInSail()) {
             static::startChromeDriver();
         }
