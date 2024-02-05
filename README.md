@@ -2,7 +2,23 @@
 
 ## Travail à faire
 
-Utiliser laravel dusk pour Tester lab-crud-standard
+Utiliser laravel dusk pour Tester lab-crud-standard 
+
+## Backlog 
+
+Le backlog est une liste ordonées des tâches 
+
+- **chapitre** 
+- **exposé** 
+- **feature** 
+  - [1.backlog.7.md](./Backlog/feature/1.backlog.7.md) 
+  - [2.rapport.8.md](./Backlog/feature/2.rapport.8.md) 
+  - [3.presentation.9.md](./Backlog/feature/3.presentation.9.md) 
+- **sous-tâche** 
+  - [1.init-rapport.10.md](./Backlog/feature/1.init-rapport.10.md) 
+  - [2.presentation.11.md](./Backlog/feature/2.init-presentation.11.md) 
+
+## Livrables 
 
 ## Installation 
 
