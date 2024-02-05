@@ -34,5 +34,6 @@ class ProjectController extends Controller
         }
         return view('home' , compact('projects' , 'projectData'))->render();
     }
+    
  
 }
