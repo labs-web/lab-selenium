@@ -1,4 +1,4 @@
-# lab-selenium-driver
+# Lab-Laravel-Dusk
 
 ## Travail à faire
 
