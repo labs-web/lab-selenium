@@ -19,15 +19,15 @@ order: 2
   - Introduction
     - images
     - Introduction.md
-  - Conclusion
-    - Images
-    - Conclusion.md
   - Backlog
     - images
     - Backlog.md
   - Autoformation 
     - Compte-rendu.autoformation.md
     - images 
+  - Conclusion
+    - Images
+    - Conclusion.md
   -  rapport.md
   -  présentation.html
 
