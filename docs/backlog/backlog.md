@@ -19,15 +19,15 @@ order: 2
   - Introduction
     - images
     - Introduction.md
-  - Backlog
+  - installation-dusk
     - images
-    - Backlog.md
-  - Autoformation 
-    - images 
-    - Compte-rendu.autoformation.md
+    - installation-dusk.md
   - Conclusion
     - Images
     - Conclusion.md
+  - Backlog
+    - images
+    - Backlog.md
   -  rapport.md
   -  présentation.html
 

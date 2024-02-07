@@ -1,8 +1,7 @@
 ---
 layout: default
-order: 6
+order: 3
 ---
 <!--  -->
 
-## conclusion
-
+## Installation dusk
