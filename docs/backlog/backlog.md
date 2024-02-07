@@ -23,8 +23,8 @@ order: 2
     - images
     - Backlog.md
   - Autoformation 
-    - Compte-rendu.autoformation.md
     - images 
+    - Compte-rendu.autoformation.md
   - Conclusion
     - Images
     - Conclusion.md
