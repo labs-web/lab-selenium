@@ -11,7 +11,7 @@ order: 2
 
 ### Structure des dossiers
 
-![structure]({{site.baseurl}}/docs/backlog/images/structer.jpg)
+![structure](lab-laravel-dusk/docs/backlog/images/structer.jpg)
 
 <!-- note -->
 - docs
