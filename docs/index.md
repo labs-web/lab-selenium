@@ -10,7 +10,7 @@ slug: /index
 ## livrable
 
 ### Rapport 
-[Rapport](rapport.html)
+[Rapport](https://labs-web.github.io/lab-laravel-dusk/rapport.html)
 
 ### Présentation 
 [Présentation]()
