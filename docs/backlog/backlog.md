@@ -29,6 +29,6 @@ order: 2
     - images
     - Backlog.md
   -  rapport.md
-  -  présentation.html
+  -  presentation.html
 
 <!-- new slide -->
