@@ -1,10 +1,16 @@
 ---
 layout: default
 slug: /index
-order: 1
 ---
 
+ <!--  -->
 
-# lab-rapport
 
-[lab-rapport](rapport.html)
+ 
+## livrable
+
+### Rapport 
+[Rapport](https://labs-web.github.io/lab-laravel-dusk/rapport.html)
+
+### Présentation 
+[Présentation]()
