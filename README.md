@@ -67,3 +67,10 @@ php artisan dusk
 - https://laravel.com/docs/10.x/dusk
 - [Laravel Dusk Tutorials](https://www.youtube.com/playlist?list=PLe30vg_FG4OTxWw8xdgpI6xEvlEdUSw7u)
 - https://fajarwz.com/blog/improving-app-quality-exploring-browser-testing-with-laravel-dusk/
+
+## Rapport
+
+[Rapport](https://labs-web.github.io/lab-laravel-dusk/rapport.html)
+
+## Présentation 
+[Présentation](https://labs-web.github.io/lab-laravel-dusk/presentation.html)
