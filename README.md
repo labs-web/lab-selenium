@@ -17,6 +17,7 @@ Le backlog est une liste ordonées des tâches
 - **sous-tâche** 
   - [1.init-rapport.12.md](./Backlog/sous-tâche/1.init-rapport.12.md) 
   - [2.init-présentation.13.md](./Backlog/sous-tâche/2.init-présentation.13.md) 
+- **thème** 
 ## Livrables 
 
  
