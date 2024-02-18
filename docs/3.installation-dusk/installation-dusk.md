@@ -6,4 +6,4 @@ order: 3
 
 # Installation dusk
 
-<!-- new slidee  -->
+<!-- new slide -->
