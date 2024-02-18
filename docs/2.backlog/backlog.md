@@ -1,17 +1,15 @@
 ---
 layout: default
-title: structure-des-dossiers.md
+chapitre: Backlog
 order: 2
 ---
-<!--  -->
 
-## Backlog
+
+# Backlog
 
 <!-- new slide -->
 
-### Structure des dossiers
-
-![structure](/lab-laravel-dusk/backlog/images/structer.jpg)
+## Structure des dossiers
 
 <!-- note -->
 - docs

@@ -30,5 +30,5 @@ Le backlog est une liste ordonées des tâches
  
 
 - [Autoformation](#) 
-- [Rapport lab laravel dusk](http://labs-web.github.io/lab-laravel-dusk/rapport.html) 
+- [Rapport](http://labs-web.github.io/lab-laravel-dusk/)
 
