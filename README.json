@@ -1,8 +1,8 @@
 {
     "Introduction":{
-        "Titre" :"",
+        "Titre" :"Lab laravel dusk",
         "Reference":"",
-        "Description" : ""
+        "Description" : "On applique le test browser sur le lab laravel crud standard"
     },
     "Backlog":{
         "Titre" : "Backlog",
@@ -31,6 +31,16 @@
             {
                 "Titre":"Autoformation",
                 "Lien":"#"
+            },
+            {
+                "Titre" : "Rapport lab laravel dusk",
+                "Lien":"http://labs-web.github.io/lab-laravel-dusk/rapport.html"
+
+            },
+            {
+                "Titre" : "Présentation lab laravel dusk",
+                "Lien":"http://labs-web.github.io/lab-laravel-dusk/presentation.html"
+
             }
            
         ]
