@@ -36,6 +36,11 @@
                 "Titre" : "Rapport lab laravel dusk",
                 "Lien":"http://labs-web.github.io/lab-laravel-dusk/rapport.html"
 
+            },
+            {
+                "Titre" : "Présentation lab laravel dusk",
+                "Lien":"http://labs-web.github.io/lab-laravel-dusk/presentation.html"
+
             }
            
         ]
