@@ -10,22 +10,30 @@ order: 2
 <!-- new slide -->
 
 ## Structure des dossiers
+![dossiers](/lab-laravel-dusk/backlog/images/folders.jpg){:width="400px" }*Figure 2: Structure des dossiers* 
+
 
 <!-- note -->
 - docs
-  - Index.md
   - Introduction
     - images
-    - Introduction.md
+    - introduction.md
+  - backlog
+    - images
+    - backlog.md
+  - crud-tache
+    - images
+    - crud-tache.md
   - installation-dusk
     - images
     - installation-dusk.md
-  - Conclusion
-    - Images
-    - Conclusion.md
-  - Backlog
+  - tache-test
     - images
-    - Backlog.md
+    - tache-test.md
+  - conclusion
+    - images
+    - conclusion.md
+  -  index.md
   -  rapport.md
   -  présentation.html
 
