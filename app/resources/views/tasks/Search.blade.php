@@ -4,10 +4,10 @@
         <td>{{ Str::limit($Task->description, 30) }}</td>
 
         <td class="">
-            <a href="{{ route('tasks.show', ['task' => $Task->id]) }}" class="btn btn-sm btn-default mx-2">
-                <i class="fa-regular fa-eye"></i>
+            <a href="{{ route('tasks.show', ['task' => $Task->id]) }}" class="btn btn-sm btn-default">
+                <i class="far fa-eye"></i>
             </a>
-            <a href="{{ route('tasks.edit', ['task' => $Task->id]) }}" class="btn btn-sm btn-default mx-2">
+            <a href="{{ route('tasks.edit', ['task' => $Task->id]) }}" class="btn btn-sm btn-default">
                 <i class="fa-solid fa-pen-to-square"></i>
             </a>
             <button type="submit" class="btn btn-sm btn-danger" onclick="deleteTask({{ $Task->id }})" data-toggle="modal"

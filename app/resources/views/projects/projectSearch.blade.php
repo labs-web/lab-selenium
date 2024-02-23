@@ -3,10 +3,10 @@
         <td>{{ $project->nom }}</td>
         <td>{{ Str::limit($project->description, 30) }} <a href="{{ route('projects.show', $project->id) }}"> plus...</a></td>        <td>
         <td>
-            <a href="{{ route('projects.show', ['project' => $project->id]) }}" class='btn btn-default btn-sm'>
+            <a href="{{ route('projects.show', ['project' => $project->id]) }}" class='btn btn-default btn-sm mx-2'>
                 <i class="far fa-eye"></i>
             </a>
-            <a href="{{ route('projects.tasks', ['projetId' => $project->id]) }}" class="btn btn-sm btn-info">
+            <a href="{{ route('projects.tasks', ['projetId' => $project->id]) }}" class="btn btn-sm btn-info mx-2">
                 <i class="fas fa-tasks"></i> Les Tâches
             </a>
         </td>
