@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\ProjectController;
+use App\Http\Controllers\ProjectsController;
 use App\Http\Controllers\TasksController;
 
 /*
@@ -14,10 +14,18 @@ use App\Http\Controllers\TasksController;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-Route::get('/' , [ProjectController::class, 'index'])->name('home');
-Route::get('/tasks/{id}', [TasksController::class, 'show'])->name('tasks');
-Route::get('add.task', [TasksController::class, 'create'])->name('add.task');
-Route::post('add.task', [TasksController::class, 'store'])->name('add.task');
-Route::get('edit/{id}' ,[TasksController::class, 'edit'])->name('edit.task');
-Route::get('delete/{id}' ,[TasksController::class, 'destroy'])->name('delete.task');
-Route::patch('edit/{id}' ,[TasksController::class, 'update'])->name('update.task');
+
+// Route::get('/', function () {
+//     return view('Projects.index');
+// });
+Route::get('/',[ProjectsController::class,'index'])->name('home');
+// Route::post('/',[ProjectsController::class,'create'])->name('create');
+
+// Route::put('update',[ProjectsController::class,'edit'])->name('edit');
+// Route::delete('destroy',[ProjectsController::class,'destroy'])->name('destroy');
+
+Route::get('projects/tasks/{projetId}',[TasksController::class,'index'])->name('projects.tasks');
+
+Route::resource('tasks', TasksController::class);
+Route::resource('projects', ProjectsController::class);
+

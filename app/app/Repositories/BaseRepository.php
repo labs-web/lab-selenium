@@ -1,41 +1,63 @@
-<?php
-
+<?php 
 namespace App\Repositories;
 
 use Illuminate\Database\Eloquent\Model;
 
+
 abstract class BaseRepository {
-protected $model ;
 
-public function __construct(Model $model){
-    $this->model = $model;
-}
-abstract public function getFieldData():array;
-abstract public function model():string;
+    protected $model;
+    public function __construct(Model $model){
 
-public function index(){
-    return $this->model->paginate(3);
+        $this->model = $model;
+    }
+
+
+
+
+  
+  public function find($id) {
+
+     return $this->model->findOrFail($id);
+
+    } 
+
+
+  
+    abstract function getFieldData():array;
+    abstract function model():string;
+
+    public function index(){
+     return $this->model->paginate(4);
+    }
+
+public function create($validatedata){
+
+    return  $this->model->create($validatedata);
+
 }
-public function show($id){
-   return $this->model->where('projetId' , $id)->paginate(3);
-}
-public function getData(){
-    return $this->model->select('id', 'nom')->get();
-}
-public function store(array $validatedData){
-    $this->model->create($validatedData);
-}
-public function edit($id){
-    $task = $this->model->findOrFail($id);
-    return $task;
-}
-public function update(array $validatedData , $id){
-    $task = $this->model->findOrFail($id);
-    $task->update($validatedData);
-    return $task;
-}
-public function destroy($id){
-    $task = $this->model->findOrFail($id);
-    $task->delete();
-}
+// update
+
+public function update(array $validatedData, $id) {
+    
+    $data = $this->model->find($id);
+    if(!$data) {
+      return false;
+    }
+    
+    return $data->update($validatedData);
+
+  }
+
+  public function delete($id) {
+    
+    $data = $this->model->find($id);
+    if(!$data) {
+      return false;
+    }
+    
+    return $data->delete($id);
+
+  }
+
 }
