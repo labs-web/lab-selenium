@@ -5,6 +5,6 @@ order: 1
 ---
 
 # Introduction
-{:class='section' }
+
 
 <!-- new slide -->
