@@ -1,9 +1,9 @@
 ---
 layout: default
-chapitre: Installation dusk
-order: 3
+chapitre: Installation de dusk
+order: 10
 ---
 
-# Installation dusk
+# Installation de dusk
 
 <!-- new slide -->
